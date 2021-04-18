@@ -1,0 +1,15 @@
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+li.only-desktop {
+  display: inline-flex;
+}
+
+[data-theme="light"] .m-logo {
+  filter: drop-shadow(1px 0px 3px rgba(0, 0, 0, 0.5));
+}
+
+.m-hero__picture .gatsby-image-wrapper {
+  position: static !important;
+}

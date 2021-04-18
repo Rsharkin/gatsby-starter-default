@@ -1,0 +1,50 @@
+/* source-sans-pro-regular */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"),
+    url("./fonts/source-sans-pro/latin/source-sans-pro-regular.woff2")
+      format("woff2"),
+    url("./fonts/source-sans-pro/latin/source-sans-pro-regular.woff")
+      format("woff");
+}
+
+/* source-sans-pro-600 */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"),
+    url("./fonts/source-sans-pro/latin/source-sans-pro-600.woff2")
+      format("woff2"),
+    url("./fonts/source-sans-pro/latin/source-sans-pro-600.woff") format("woff");
+}
+
+/* source-sans-pro-700 */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"),
+    url("./fonts/source-sans-pro/latin/source-sans-pro-700.woff2")
+      format("woff2"),
+    url("./fonts/source-sans-pro/latin/source-sans-pro-700.woff") format("woff");
+}
+
+/* iconmoon */
+@font-face {
+  font-family: "icomoon";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/icomoon/icomoon.eot?aoz2mo");
+  src: url("./fonts/icomoon/icomoon.eot?aoz2mo#iefix")
+      format("embedded-opentype"),
+    url("./fonts/icomoon/icomoon.ttf?aoz2mo") format("truetype"),
+    url("./fonts/icomoon/icomoon.woff?aoz2mo") format("woff"),
+    url("./fonts/icomoon/icomoon.svg?aoz2mo#icomoon") format("svg");
+}
